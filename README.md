@@ -11,6 +11,9 @@ Using this plugin it is possible to select date by typing on an input or by sele
 cd KIBANA_HOME/plugins
 git clone https://github.com/IuryNogueira/kibana-datepicker
 vim KIBANA_HOME/plugins/kibana-datepicker-plugin/package.json //set version to match kibana version
+
+Deve ser gerado um arquivo .ZIP para realizar a instalação com a seguinte estrutura: kibana->kibana-datepicker-plugin
+./bin/kibana-plugin install file:///local/arquivo.zip
 ```
 
 # Uninstall
